@@ -3299,7 +3299,7 @@ Copyright (c) 2013 Daniel Eden
 
 .logo-return {
 
-  margin: 22px;
+  margin: 15px;
   width: 150px;
   transition: 0.5s ease;
   transform: rotate(0deg);
@@ -3312,3 +3312,42 @@ Copyright (c) 2013 Daniel Eden
   transition: 0.5s ease;
   transform: rotate(360deg);
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .logo-return {
+
+    margin: 15px;
+    width: 30px;
+    transition: 0.5s ease;
+    transform: rotate(0deg);
+  }
+  
+  .logo-return:hover {
+  
+    margin: 22px;
+    width: 100px;
+    transition: 0.5s ease;
+    transform: rotate(360deg);
+  }
+  }
+
+
+  @media only screen and (min-device-width : 480px) and (max-device-width : 700px) {
+    .logo-return {
+  
+      margin: 15px;
+      width: 30px;
+      right: 50px;
+      transition: 0.5s ease;
+      transform: rotate(0deg);
+    }
+    
+    .logo-return:hover {
+      right: 50px;
+      margin: 22px;
+      
+      width: 100px;
+      transition: 0.5s ease;
+      transform: rotate(360deg);
+    }
+    }
