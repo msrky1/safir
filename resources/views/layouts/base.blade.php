@@ -39,6 +39,15 @@
 
     <!-- Modernizer Script for old Browsers -->
     <script src="{{ asset('assets') }}/js/modernizr-2.6.2.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BRVWPQ0PJX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BRVWPQ0PJX');
+</script>
 </head>
 
 <body id="body">
@@ -57,7 +66,7 @@
               class="sec-title text-center mb50 wow fadeInDown animated"
               data-wow-duration="500ms"
             >
-              <h2>Let’s Discuss</h2>
+              <h2>{{__('home.iletişim')}}</h2>
               <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
   
@@ -66,9 +75,7 @@
               data-wow-duration="1000ms"
             >
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore
+            İletişim Formunu Doldurun
               </p>
             </div>
   
@@ -78,10 +85,10 @@
               data-wow-duration="500ms"
             >
               <div class="contact-address">
-                <h3>Cras at ultrices erat, sed vulputate!</h3>
-                <p>2345 Setwant natrer, 1234,</p>
-                <p>Washington. United States.</p>
-                <p>(401) 1234 567</p>
+                <h3>Lütfen iletişim formunu doldurun</h3>
+                <p>Adres</p>
+              
+                <p>Numara</p>
               </div>
             </div>
             <!-- end contact address -->
@@ -93,7 +100,7 @@
               data-wow-delay="300ms"
             >
               <div class="contact-form">
-                <h3>Say hello!</h3>
+                <h3>Bize Ulaşın</h3>
                 <form action="#" id="contact-form">
                   <div class="input-group name-email">
                     <div class="input-field">
@@ -101,7 +108,7 @@
                         type="text"
                         name="name"
                         id="name"
-                        placeholder="Name"
+                        placeholder="Adı"
                         class="form-control"
                       />
                     </div>
@@ -119,7 +126,7 @@
                     <textarea
                       name="message"
                       id="message"
-                      placeholder="Message"
+                      placeholder="Mesajınız"
                       class="form-control"
                     ></textarea>
                   </div>
@@ -128,7 +135,7 @@
                       type="submit"
                       id="form-submit"
                       class="pull-right"
-                      value="Send message"
+                      value="Gönder"
                     />
                   </div>
                 </form>
@@ -144,25 +151,11 @@
             >
               <ul class="footer-social">
                 <li>
-                  <a href="https://www.behance.net/Themefisher"
-                    ><i class="fa fa-behance fa-2x"></i
+                  <a href="/"
+                    ><i class="fa fa-instagram fa-2x"></i
                   ></a>
                 </li>
-                <li>
-                  <a href="https://www.twitter.com/Themefisher"
-                    ><i class="fa fa-twitter fa-2x"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://dribbble.com/themefisher"
-                    ><i class="fa fa-dribbble fa-2x"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.facebook.com/Themefisher"
-                    ><i class="fa fa-facebook fa-2x"></i
-                  ></a>
-                </li>
+               
               </ul>
             </div>
             <!-- end footer social links -->
@@ -192,9 +185,7 @@
               <div class="footer-single">
                 <img src="img/footer-logo.png" alt="" />
                 <p>
-                  eusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
+                  Adresss
                 </p>
               </div>
             </div>
@@ -205,12 +196,12 @@
               data-wow-delay="300ms"
             >
               <div class="footer-single">
-                <h6>Subscribe</h6>
+                <h6>Kaydol</h6>
                 <form action="#" class="subscribe">
                   <input type="text" name="subscribe" id="subscribe" />
                   <input type="submit" value="&#8594;" id="subs" />
                 </form>
-                <p>eusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Bize Abone Olun!</p>
               </div>
             </div>
   
@@ -222,10 +213,9 @@
               <div class="footer-single">
                 <h6>Explore</h6>
                 <ul>
-                  <li><a href="#">Inside Us</a></li>
-                  <li><a href="#">Flickr</a></li>
-                  <li><a href="#">Google</a></li>
-                  <li><a href="#">Forum</a></li>
+                  <li><a href="#">{{__('home.anasayfa')}}</a></li>
+                  <li><a href="#features">{{__('home.hakkımızda')}}</a></li>
+                  <li><a href="#works">{{__('home.projeler')}}</a></li>
                 </ul>
               </div>
             </div>
@@ -236,12 +226,12 @@
               data-wow-delay="900ms"
             >
               <div class="footer-single">
-                <h6>Support</h6>
+                <h6>Daha Fazla</h6>
                 <ul>
-                  <li><a href="#">Contact Us</a></li>
+                  {{-- <li><a href="#">Contact Us</a></li>
                   <li><a href="#">Market Blog</a></li>
                   <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Pressroom</a></li>
+                  <li><a href="#">Pressroom</a></li> --}}
                 </ul>
               </div>
             </div>

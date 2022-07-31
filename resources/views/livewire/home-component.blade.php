@@ -71,7 +71,7 @@
           <!-- single slide -->
           <div
             class="item active"
-            style="background-image: url({{asset('assets')}}/img/banner.jpg)"
+            style="background-image: url({{asset('assets')}}/img/works/01.jpg)"
           >
             <div class="carousel-caption">
               <h2
@@ -79,13 +79,13 @@
                 data-wow-delay="500ms"
                 class="wow bounceInDown animated"
               >
-                Meet<span> Brandi</span>!
+              {{__('home.Kalite')}}
               </h2>
               <h3 data-wow-duration="1000ms" class="wow slideInLeft animated">
-                <span class="color">/creative</span> one page template.
+                <span class="color">/safir</span> 
               </h3>
               <p data-wow-duration="1000ms" class="wow slideInRight animated">
-                We are a team of professionals
+                    Alanında Uzman Ekip
               </p>
 
               <ul class="social-links text-center">
@@ -107,20 +107,20 @@
           <!-- end single slide -->
 
           <!-- single slide -->
-          <div class="item" style="background-image: url({{asset('assets')}}/img/banner.jpg)">
+          <div class="item" style="background-image: url({{asset('assets')}}/img/works/02.jpg)">
             <div class="carousel-caption">
               <h2
                 data-wow-duration="500ms"
                 data-wow-delay="500ms"
                 class="wow bounceInDown animated"
               >
-                Meet<span> Team</span>!
+                Safir<span>  {{__('home.Kalite2')}}</span>!
               </h2>
               <h3 data-wow-duration="500ms" class="wow slideInLeft animated">
-                <span class="color">/creative</span> one page template.
+                <span class="color">/Safir</span>
               </h3>
               <p data-wow-duration="500ms" class="wow slideInRight animated">
-                We are a team of professionals
+                Alanında Uzman Ekip
               </p>
 
               <ul class="social-links text-center">
@@ -160,7 +160,7 @@
             class="sec-title text-center mb50 wow bounceInDown animated"
             data-wow-duration="500ms"
           >
-            <h2>Features</h2>
+            <h2> {{__('home.özellikler')}}</h2>
             <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
           </div>
 
@@ -172,7 +172,7 @@
               </div>
 
               <div class="service-desc">
-                <h3>Branding</h3>
+                <h3> {{__('home.markalaşma')}}</h3>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
@@ -195,7 +195,7 @@
               </div>
 
               <div class="service-desc">
-                <h3>Development</h3>
+                <h3> {{__('home.markalaşma')}}</h3>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
@@ -218,7 +218,7 @@
               </div>
 
               <div class="service-desc">
-                <h3>Consulting</h3>
+                <h3> {{__('home.gelişim')}}</h3>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
@@ -244,7 +244,7 @@
       <div class="container">
         <div class="row">
           <div class="sec-title text-center">
-            <h2>Works</h2>
+            <h2> {{__('home.işler')}}</h2>
             <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
           </div>
 
@@ -263,25 +263,26 @@
             <ul class="text-center">
               <li>
                 <a href="javascript:;" data-filter="all" class="active filter"
-                  >All</a
+                  > {{__('home.Herşey')}}</a
                 >
+              </li>
+              <li>
+                <a href="javascript:;" data-filter=".web" class="filter"> {{__('home.Poliüretan')}}</a>
               </li>
               <li>
                 <a href="javascript:;" data-filter=".branding" class="filter"
-                  >Branding</a
+                  > {{__('home.Polyurea')}}</a
                 >
               </li>
-              <li>
-                <a href="javascript:;" data-filter=".web" class="filter">web</a>
-              </li>
+              
               <li>
                 <a href="javascript:;" data-filter=".logo-design" class="filter"
-                  >logo design</a
+                  > {{__('home.Kaplama')}}</a
                 >
               </li>
               <li>
                 <a href="javascript:;" data-filter=".photography" class="filter"
-                  >photography</a
+                  > {{__('home.Sıkma')}}</a
                 >
               </li>
             </ul>
@@ -427,7 +428,7 @@
             class="sec-title text-center wow fadeInUp animated"
             data-wow-duration="700ms"
           >
-            <h2>Meet Our Team</h2>
+            <h2> {{__('home.tercih')}}</h2>
             <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
           </div>
 
@@ -449,15 +450,15 @@
           >
             <div class="member-thumb">
               <img
-                src="{{asset('assets')}}/img/team/member-1.png"
+                src="{{asset('assets')}}/img/team/01.jpg"
                 alt="Team Member"
                 class="img-responsive"
               />
               <figcaption class="overlay">
-                <h5>voluptatem quia voluptas</h5>
-                <p>sit aspernatur aut odit aut fugit,</p>
+                <h5>FİLLİ BOYA</h5>
+                {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
                 <ul class="social-links text-center">
-                  <li>
+                  {{-- <li>
                     <a href=""><i class="fa fa-twitter fa-lg"></i></a>
                   </li>
                   <li>
@@ -465,112 +466,141 @@
                   </li>
                   <li>
                     <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                  </li>
+                  </li> --}}
                 </ul>
               </figcaption>
             </div>
-            <h4>John Filmr Doe</h4>
-            <span>Managing Director</span>
+            <h4>FİLLİ BOYA</h4>
+            <span>Safir Teknik İzolasyon</span>
+          </figure>
+          <figure
+            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+            data-wow-duration="500ms"
+          >
+            <div class="member-thumb">
+              <img
+                src="{{asset('assets')}}/img/team/01.jpg"
+                alt="Team Member"
+                class="img-responsive"
+              />
+              <figcaption class="overlay">
+                <h5>FİLLİ BOYA</h5>
+                {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                <ul class="social-links text-center">
+                  {{-- <li>
+                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
+                  </li> --}}
+                </ul>
+              </figcaption>
+            </div>
+            <h4>FİLLİ BOYA</h4>
+            <span>Safir Teknik İzolasyon</span>
+          </figure>
+          <figure
+            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+            data-wow-duration="500ms"
+          >
+            <div class="member-thumb">
+              <img
+                src="{{asset('assets')}}/img/team/01.jpg"
+                alt="Team Member"
+                class="img-responsive"
+              />
+              <figcaption class="overlay">
+                <h5>FİLLİ BOYA</h5>
+                {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                <ul class="social-links text-center">
+                  {{-- <li>
+                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
+                  </li> --}}
+                </ul>
+              </figcaption>
+            </div>
+            <h4>FİLLİ BOYA</h4>
+            <span>Safir Teknik İzolasyon</span>
+          </figure>
+          <figure
+            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+            data-wow-duration="500ms"
+          >
+            <div class="member-thumb">
+              <img
+                src="{{asset('assets')}}/img/team/01.jpg"
+                alt="Team Member"
+                class="img-responsive"
+              />
+              <figcaption class="overlay">
+                <h5>FİLLİ BOYA</h5>
+                {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                <ul class="social-links text-center">
+                  {{-- <li>
+                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
+                  </li> --}}
+                </ul>
+              </figcaption>
+            </div>
+            <h4>FİLLİ BOYA</h4>
+            <span>Safir Teknik İzolasyon</span>
+          </figure>
+          <figure
+            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+            data-wow-duration="500ms"
+          >
+            <div class="member-thumb">
+              <img
+                src="{{asset('assets')}}/img/team/01.jpg"
+                alt="Team Member"
+                class="img-responsive"
+              />
+              <figcaption class="overlay">
+                <h5>FİLLİ BOYA</h5>
+                {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                <ul class="social-links text-center">
+                  {{-- <li>
+                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
+                  </li> --}}
+                </ul>
+              </figcaption>
+            </div>
+            <h4>FİLLİ BOYA</h4>
+            <span>Safir Teknik İzolasyon</span>
           </figure>
           <!-- end single member -->
 
           <!-- single member -->
-          <figure
-            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-            data-wow-duration="500ms"
-            data-wow-delay="300ms"
-          >
-            <div class="member-thumb">
-              <img
-                src="{{asset('assets')}}/img/team/member-2.png"
-                alt="Team Member"
-                class="img-responsive"
-              />
-              <figcaption class="overlay">
-                <h5>voluptatem quia voluptas</h5>
-                <p>sit aspernatur aut odit aut fugit,</p>
-                <ul class="social-links text-center">
-                  <li>
-                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </div>
-            <h4>Martin Matrone</h4>
-            <span>Lead Developer</span>
-          </figure>
+         
           <!-- end single member -->
 
           <!-- single member -->
-          <figure
-            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-            data-wow-duration="500ms"
-            data-wow-delay="600ms"
-          >
-            <div class="member-thumb">
-              <img
-                src="{{asset('assets')}}/img/team/member-3.png"
-                alt="Team Member"
-                class="img-responsive"
-              />
-              <figcaption class="overlay">
-                <h5>voluptatem quia voluptas</h5>
-                <p>sit aspernatur aut odit aut fugit,</p>
-                <ul class="social-links text-center">
-                  <li>
-                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </div>
-            <h4>Steve Flaulkin</h4>
-            <span>Sr. UI Designer</span>
-          </figure>
+         
           <!-- end single member -->
 
           <!-- single member -->
-          <figure
-            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
-            data-wow-duration="500ms"
-            data-wow-delay="900ms"
-          >
-            <div class="member-thumb">
-              <img
-                src="{{asset('assets')}}/img/team/member-1.png"
-                alt="Team Member"
-                class="img-responsive"
-              />
-              <figcaption class="overlay">
-                <h5>voluptatem quia voluptas</h5>
-                <p>sit aspernatur aut odit aut fugit,</p>
-                <ul class="social-links text-center">
-                  <li>
-                    <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </div>
-            <h4>John Filmr Doe</h4>
-            <span>Managing Director</span>
-          </figure>
+         
           <!-- end single member -->
         </div>
       </div>
@@ -592,7 +622,7 @@
               class="sec-title text-center mb50 wow rubberBand animated"
               data-wow-duration="1000ms"
             >
-              <h2>Some Fun Facts</h2>
+              <h2>{{__('home.müşteri')}}</h2>
               <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
 
@@ -605,7 +635,7 @@
                 <i class="fa fa-clock-o fa-3x"></i>
                 <strong data-to="3200">0</strong>
                 <!-- Set Your Number here. i,e. data-to="56" -->
-                <p>Hours of Work</p>
+                {{__('home.saat')}}</p>
               </div>
             </div>
             <div
@@ -617,7 +647,7 @@
                 <i class="fa fa-users fa-3x"></i>
                 <strong data-to="120">0</strong>
                 <!-- Set Your Number here. i,e. data-to="56" -->
-                <p>Satisfied Clients</p>
+                <p>{{__('home.mennun')}}</p>
               </div>
             </div>
             <div
@@ -629,7 +659,7 @@
                 <i class="fa fa-rocket fa-3x"></i>
                 <strong data-to="360">0</strong>
                 <!-- Set Your Number here. i,e. data-to="56" -->
-                <p>Projects Delivered</p>
+                <p>{{__('home.teslim')}}</p>
               </div>
             </div>
             <div
@@ -641,7 +671,7 @@
                 <i class="fa fa-trophy fa-3x"></i>
                 <strong data-to="6454">0</strong>
                 <!-- Set Your Number here. i,e. data-to="56" -->
-                <p>Awards Won</p>
+                <p>{{__('home.başarılar')}}</p>
               </div>
             </div>
             <!-- end first count item -->
