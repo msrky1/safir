@@ -6,7 +6,7 @@
      'anasayfa' =>  'Anasayfa' ,
      'hakkımızda' =>  'Hakkımızda' ,
      'projeler' =>  'Projeler' , 
-     'iletişim' =>  'İLETİŞİM' , 
+     'iletişim' =>  'İletişim' , 
       
      'özellikler' => 'ÖZELLİKLER' , 
      'markalaşma' => 'MARKALAŞMA' , 
@@ -22,6 +22,7 @@
      'tercih' => 'BİZİ TERCİH EDEN MARKALAR' , 
       'Kalite' => 'Slogan 1',
       'Kalite2' => 'Slogan 2',
+      'Kalite3' => 'Kalite3',
       'müşteri' => 'MÜŞTERİ MENNUNİYETİ',
       'saat' => 'ÇALIŞMA SAATİ',
       'mennun' => 'MEMNUN MÜŞTERİLER',
@@ -39,8 +40,20 @@
 
         'n2' => 'KÖSTER Polyflex 2K kauçuk  sürülerek veya püskürtülerek uygulan bir su yalıtımı ürünüdür. Uygulandığı yüzeyde eksiz ve esnek bir su yalıtımı katmanı oluşturan KÖSTER Polyflex 2K bina perdeleri ve istinat duvarları gibi toprak altında kalan yapıların su yalıtımında gösterdiği yüksek performans nedeniyle tercih edilen bir üründür. Radon gazı geçirimsiz olması sebebiyle bodrum kat ve otoparklarda radon gazı birikiminin önüne geçilerek sağlıklı yaşam alanlarının oluşturulmasına imkan sağlar.Yalıtım sistemlerimiz ileri teknoloji makinalarımız ile uygulanmaktadır.',
         'n3' => 'Epoksi zemin kaplamaları yapı sektöründe çok geniş bir kullanım alanına sahiptir. Zemin kaplaması olarak kullanılmasının en temel amacı fiziksel ve kimyasal oluşumların beton yüzeyler üzerindeki olumsuz etkilerini gidermektir. Epoksi esaslı döşeme kaplamaları uygulanmış olan alanlarda betonarme betonuna kıyasla çok üstün performansa sahip kesintisiz bir yüzey elde edilebilmektedir.',
-        'm1' => 'Her Giden Gün Hizmetimize Değer Katarak Markamızı Artırmaktayız.'
+        'm1' => 'Her Giden Gün Hizmetimize Değer Katarak Markamızı Artırmaktayız.',
+        'm2' => 'Kaliteme Her Geçen Gün Artırmaya Özen Gösteriyoruz',
+        'm3' => 'Kendimizi Her Daim Geliştirerek Daha İyi Çalışmaların Her Zaman Önünü Açmaktayız',
+
+        's1' => 'Slogan 1' , 
+        's2' => 'Slogan 1' , 
+        's3' => 'Slogan 1' , 
+        's4' => 'Slogan 1' ,
+      
+
+
+
     
+
       
 
  ]

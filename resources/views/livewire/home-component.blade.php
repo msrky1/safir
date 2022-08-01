@@ -174,10 +174,7 @@
               <div class="service-desc">
                 <h3> {{__('home.markalaşma')}}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore
-                </p>
+                  {{__('home.m1')}}</p>
               </div>
             </div>
           </div>
@@ -195,11 +192,9 @@
               </div>
 
               <div class="service-desc">
-                <h3> {{__('home.markalaşma')}}</h3>
+                <h3> {{__('home.Kalite3')}}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore
+                  {{__('home.m2')}}
                 </p>
               </div>
             </div>
@@ -220,9 +215,7 @@
               <div class="service-desc">
                 <h3> {{__('home.gelişim')}}</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore
+                  {{__('home.m3')}}
                 </p>
               </div>
             </div>
@@ -250,9 +243,7 @@
 
           <div class="sec-sub-title text-center">
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore
+               {{__('home.hakkimizdakisa')}}
             </p>
           </div>
 
@@ -281,7 +272,7 @@
                 >
               </li>
               <li>
-                <a href="javascript:;" data-filter=".photography" class="filter"
+                <a href="javascript:;" data-filter=". " class="filter"
                   > {{__('home.Sıkma')}}</a
                 >
               </li>
@@ -301,8 +292,8 @@
               href="{{asset('assets')}}/img/works/item-1.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>Safir</h4>
+            {{-- <p></p> --}}
           </figcaption>
         </figure>
 
@@ -316,8 +307,8 @@
               href="{{asset('assets')}}/img/works/item-2.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>SAFİR</h4>
+            <p> </p>
           </figcaption>
         </figure>
 
@@ -331,12 +322,12 @@
               href="{{asset('assets')}}/img/works/item-3.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>{{__('home.safir')}}</h4>
+            {{-- <p> </p> --}}
           </figcaption>
         </figure>
 
-        <figure class="mix work-item photography">
+        <figure class="mix work-item  ">
           <img src="{{asset('assets')}}/img/works/item-4.jpg" alt="" />
           <figcaption class="overlay">
             <a
@@ -346,12 +337,12 @@
               href="{{asset('assets')}}/img/works/item-4.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>Safir</h4>
+            <p> </p>
           </figcaption>
         </figure>
 
-        <figure class="mix work-item branding">
+        {{-- <figure class="mix work-item branding">
           <img src="{{asset('assets')}}/img/works/item-5.jpg" alt="" />
           <figcaption class="overlay">
             <a
@@ -361,8 +352,8 @@
               href="{{asset('assets')}}/img/works/item-5.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>SAFİR</h4>
+            <p> </p>
           </figcaption>
         </figure>
 
@@ -376,8 +367,8 @@
               href="{{asset('assets')}}/img/works/item-6.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>SAFİR</h4>
+            <p> </p>
           </figcaption>
         </figure>
 
@@ -391,12 +382,12 @@
               href="{{asset('assets')}}/img/works/item-7.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>SAFİR</h4>
+            <p> </p>
           </figcaption>
         </figure>
 
-        <figure class="mix work-item photography">
+        <figure class="mix work-item  ">
           <img src="{{asset('assets')}}/img/works/item-8.jpg" alt="" />
           <figcaption class="overlay">
             <a
@@ -406,10 +397,10 @@
               href="{{asset('assets')}}/img/works/item-8.jpg"
               ><i class="fa fa-eye fa-lg"></i
             ></a>
-            <h4>Labore et dolore magnam</h4>
-            <p>Photography</p>
+            <h4>SAFİR</h4>
+            <p> </p>
           </figcaption>
-        </figure>
+        </figure> --}}
       </div>
     </section>
 
@@ -437,9 +428,7 @@
             data-wow-duration="500ms"
           >
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore
+             {{__('home.m1')}}
             </p>
           </div>
 

@@ -239,10 +239,10 @@
           <div class="row">
             <div class="col-md-12">
               <p class="copyright text-center">
-                Copyright © 2015
-                <a href="http://themefisher.com/">Themefisher</a>. All rights
+                Copyright © 2022
+                <a href="http://themefisher.com/">SAFİR</a>. All rights
                 reserved. Designed & developed by
-                <a href="http://themefisher.com/">Themefisher</a>
+                <a href="http://themefisher.com/">Mahmut Sarıkaya</a>
               </p>
             </div>
           </div>
