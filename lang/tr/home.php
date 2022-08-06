@@ -22,7 +22,7 @@
      'tercih' => 'BİZİ TERCİH EDEN MARKALAR' , 
       'Kalite' => 'Slogan 1',
       'Kalite2' => 'Slogan 2',
-      'Kalite3' => 'Kalite3',
+      'Kalite3' => 'KALİTE',
       'müşteri' => 'MÜŞTERİ MENNUNİYETİ',
       'saat' => 'ÇALIŞMA SAATİ',
       'mennun' => 'MEMNUN MÜŞTERİLER',

@@ -17,7 +17,7 @@
           <!-- logo -->
           <a class="navbar-brand" href="#body">
             <h1 id="logo">
-              <img width="100px" class="logo-return"  src="{{asset('assets')}}/img/logo.png" alt="Brandi" />
+              <img width="100px" class="logo-return"  src="{{asset('assets')}}/img/logo.png" alt="Safir" />
             </h1>
           </a>
           <!-- /logo -->
@@ -35,7 +35,12 @@
 
 
           </ul>
-         <a href="/tr"> Türkçe </a> | <a href="/en"> English </a>
+         {{-- <a href="/tr"> Türkçe </a> | <a href="/en"> English </a> --}}
+
+         <select> 
+             <option @if(App::isLocale('tr')) selected @endif> Türkçe</option>
+             <option @if(App::isLocale('en')) selected @endif> English</option>
+         </select>  
         </nav>
       
         <!-- /main nav -->

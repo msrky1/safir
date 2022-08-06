@@ -57,8 +57,7 @@
     </div>
 
 
-
-    {{ $slot }}
+    @yield('content')
     <section id="contact" class="contact">
         <div class="container">
           <div class="row mb50">

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,19 +16,23 @@ use Illuminate\Support\Facades\App;
 */
 use App\Http\Livewire\HomeComponent;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::redirect('/' , '/tr');
 
+//  Route::get('/', function () {
 
-Route::get('/' , HomeComponent::class );
+//   return view('welcome');
+//  });
 
-Route::get('/{locale}', function ($locale) {
-    if (! in_array($locale, ['en', 'es', 'tr'])) {
-        abort(400);
-    }
- 
-    App::setLocale($locale);
- 
-    //
+Route::group(['prefix' => '{language}'  ], function(){ 
+
+    Route::get('/' , 'App\Http\Controllers\IndexController@index');
+
 });
+
+ 
+
+
+
+    // Route::get('/{dil}' , HomeComponent::class );
+
+ 
