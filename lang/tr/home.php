@@ -3,10 +3,10 @@
  return [
 
 
-     'anasayfa' =>  'Anasayfa' ,
-     'hakkımızda' =>  'Hakkımızda' ,
-     'projeler' =>  'Projeler' , 
-     'iletişim' =>  'İletişim' , 
+     'anasayfa' =>  'ANASAYFA' ,
+     'hakkımızda' =>  'HAKKIMIZDA' ,
+     'projeler' =>  'PROJELER' , 
+     'iletişim' =>  'İLETİŞİM' , 
       
      'özellikler' => 'ÖZELLİKLER' , 
      'markalaşma' => 'MARKALAŞMA' , 
@@ -29,7 +29,14 @@
       'teslim' => 'TESLİM EDİLEN PROJELER',
       'başarılar' => 'BAŞARILAR',
 
-
+       'iletişim2' => 'Bizimle iletişime geçin.',
+       'iletişim3' => 'Bize ulaşmak artık çok daha kolay',
+       'adı' => 'Adınız',
+       'mesaj' => 'Mesaj',
+       'gonder' => 'Gönder',
+       'adres' => 'Adres',
+       
+       
       'hakkimizdakisa' => '2010 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl kesin garanti sunuyoruz.'
       , 'hakkimizdauzun' => '2010 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl kesin garanti sunuyoruz.
       2000 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl garanti sunuyoruz.
@@ -44,10 +51,10 @@
         'm2' => 'Kaliteme Her Geçen Gün Artırmaya Özen Gösteriyoruz',
         'm3' => 'Kendimizi Her Daim Geliştirerek Daha İyi Çalışmaların Her Zaman Önünü Açmaktayız',
 
-        's1' => 'Slogan 1' , 
-        's2' => 'Slogan 1' , 
-        's3' => 'Slogan 1' , 
-        's4' => 'Slogan 1' ,
+        's1' => 'Safir Teknik İzolasyon ' , 
+        's2' => 'Güven ve Kalite' , 
+        's3' => 'Hizmetlerimiz İçin Bizleri Arayın' , 
+        's4' => 'Safir Teknik İzolasyon' ,
       
 
 

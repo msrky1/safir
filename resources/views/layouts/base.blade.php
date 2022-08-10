@@ -74,7 +74,7 @@
               data-wow-duration="1000ms"
             >
               <p>
-            İletişim Formunu Doldurun
+                {{__('home.iletişim2')}}
               </p>
             </div>
   
@@ -84,10 +84,13 @@
               data-wow-duration="500ms"
             >
               <div class="contact-address">
-                <h3>Lütfen iletişim formunu doldurun</h3>
-                <p>Adres</p>
+                <h3> {{__('home.iletişim3')}}
+                </h3>
+                <p>                {{__('home.adres')}}
+                </p>
               
-                <p>Numara</p>
+                {{-- <p>                {{__('home.numara')}}
+                </p> --}}
               </div>
             </div>
             <!-- end contact address -->
@@ -99,7 +102,7 @@
               data-wow-delay="300ms"
             >
               <div class="contact-form">
-                <h3>Bize Ulaşın</h3>
+                <h3>"{{__('home.iletişim')}}</h3>
                 <form action="#" id="contact-form">
                   <div class="input-group name-email">
                     <div class="input-field">
@@ -107,7 +110,7 @@
                         type="text"
                         name="name"
                         id="name"
-                        placeholder="Adı"
+                        placeholder="{{__('home.adı')}}"
                         class="form-control"
                       />
                     </div>
@@ -125,7 +128,7 @@
                     <textarea
                       name="message"
                       id="message"
-                      placeholder="Mesajınız"
+                      placeholder="{{__('home.mesaj')}}"
                       class="form-control"
                     ></textarea>
                   </div>
@@ -134,7 +137,7 @@
                       type="submit"
                       id="form-submit"
                       class="pull-right"
-                      value="Gönder"
+                      value="{{__('home.gonder')}}"
                     />
                   </div>
                 </form>
@@ -184,7 +187,8 @@
               <div class="footer-single">
                 <img src="img/footer-logo.png" alt="" />
                 <p>
-                  Adresss
+                  {{__('home.adres')}}
+
                 </p>
               </div>
             </div>
@@ -194,14 +198,7 @@
               data-wow-duration="500ms"
               data-wow-delay="300ms"
             >
-              <div class="footer-single">
-                <h6>Kaydol</h6>
-                <form action="#" class="subscribe">
-                  <input type="text" name="subscribe" id="subscribe" />
-                  <input type="submit" value="&#8594;" id="subs" />
-                </form>
-                <p>Bize Abone Olun!</p>
-              </div>
+              
             </div>
   
             <div
@@ -210,7 +207,7 @@
               data-wow-delay="600ms"
             >
               <div class="footer-single">
-                <h6>Explore</h6>
+                {{-- <h6>Explore</h6> --}}
                 <ul>
                   <li><a href="#">{{__('home.anasayfa')}}</a></li>
                   <li><a href="#features">{{__('home.hakkımızda')}}</a></li>
@@ -225,7 +222,8 @@
               data-wow-delay="900ms"
             >
               <div class="footer-single">
-                <h6>Daha Fazla</h6>
+                <h6>{{__('home.dahafazla')}}
+                </h6>
                 <ul>
                   {{-- <li><a href="#">Contact Us</a></li>
                   <li><a href="#">Market Blog</a></li>

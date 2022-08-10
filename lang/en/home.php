@@ -28,7 +28,13 @@
       'mennun' => 'SATISFIED CUSTOMERS',
       'teslim' => 'DELIVERED PROJECTS',
       'başarılar' => 'ACHIEVEMENT',
+      'iletişim2' => 'Contact us.',
+      'iletişim3' => 'Its much easier to reach us now',
 
+      'adı' => 'Firts Name',
+      'mesaj' => 'Message',
+      'gonder' => 'Send',
+      'adres' => 'Address',
 
       'hakkimizdakisa' => 'Since 2010, we have adopted honesty in our service to our valued customers and quality in our products. We offer you the best service by following the innovations in technology in all insulation and floor covering areas, by constantly differentiating in the products we use. We offer an absolute guarantee of 5 years on all the materials we use.'
       , 'hakkimizdauzun' => 'Since 2010, we have adopted honesty in our service to our valued customers and quality in our products. We offer you the best service by following the innovations in technology in all insulation and floor covering areas, by constantly differentiating in the products we use. We offer an absolute guarantee of 5 years on all the materials we use.
@@ -44,11 +50,10 @@
         'm2' => 'We Care To Improve Our Quality Every Day',
         'm3' => 'We are always paving the way for better works by always improving ourselves',
 
-        's1' => 'Slogan 1' ,
-        's2' => 'Slogan 1' ,
-        's3' => 'Slogan 1' ,
-        's4' => 'Slogan 1' ,
-      
+        's1' => 'Sapphire Technical Insulation' ,
+        's2' => 'Trust and Quality' ,
+        's3' => 'Call Us For Our Services' ,
+        's4' => 'Sapphire Technical Insulation' 
 
 
 

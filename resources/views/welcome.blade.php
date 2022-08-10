@@ -20,7 +20,7 @@
             <!-- logo -->
             <a class="navbar-brand" href="#body">
               <h1 id="logo">
-                <img width="100px" class="logo-return"  src="{{asset('assets')}}/img/logo.png" alt="Safir" />
+                <img  class="logo-return"  src="{{asset('assets')}}/img/logo.png" alt="Safir" />
               </h1>
             </a>
             <!-- /logo -->
@@ -90,7 +90,7 @@
                   data-wow-delay="500ms"
                   class="wow bounceInDown animated"
                 >
-                {{__('home.Kalite')}}
+                {{__('home.s1')}}
                 </h2>
                 <h3 data-wow-duration="1000ms" class="wow slideInLeft animated">
                   <span class="color">/safir</span> 
@@ -125,7 +125,7 @@
                   data-wow-delay="500ms"
                   class="wow bounceInDown animated"
                 >
-                  Safir<span>  {{__('home.Kalite2')}}</span>!
+                  Safir<span>  {{__('home.s2')}}</span>!
                 </h2>
                 <h3 data-wow-duration="500ms" class="wow slideInLeft animated">
                   <span class="color">/Safir</span>
