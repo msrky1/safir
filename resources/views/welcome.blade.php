@@ -167,6 +167,12 @@
       <section id="features" class="features">
         <div class="container">
           <div class="row">
+            <div class="sec-sub-title text-center">
+              <p>
+                 {{__('home.hakkimizdakisa')}}
+              </p>
+            </div>
+  
             <div
               class="sec-title text-center mb50 wow bounceInDown animated"
               data-wow-duration="500ms"
@@ -252,12 +258,7 @@
               <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
             </div>
   
-            <div class="sec-sub-title text-center">
-              <p>
-                 {{__('home.hakkimizdakisa')}}
-              </p>
-            </div>
-  
+           
             <div
               class="work-filter wow fadeInRight animated"
               data-wow-duration="500ms"
@@ -269,24 +270,26 @@
                   >
                 </li>
                 <li>
-                  <a href="javascript:;" data-filter=".web" class="filter"> {{__('home.Poliüretan')}}</a>
-                </li>
-                <li>
                   <a href="javascript:;" data-filter=".branding" class="filter"
-                    > {{__('home.Polyurea')}}</a
+                    > {{__('home.suyalıtımı')}}</a
                   >
                 </li>
+                <li>
+                  <a href="javascript:;" data-filter=".web" class="filter"> {{__('home.epoxsi')}}</a>
+                </li>
+              
                 
-                <li>
+                {{-- <li>
                   <a href="javascript:;" data-filter=".logo-design" class="filter"
-                    > {{__('home.Kaplama')}}</a
+                    > {{__('home.poliüretan')}}</a
                   >
-                </li>
+                </li> --}}
                 <li>
-                  <a href="javascript:;" data-filter=". " class="filter"
-                    > {{__('home.Sıkma')}}</a
+                  <a href="javascript:;" data-filter=".aritma" class="filter"
+                    > {{__('home.arıtma')}}</a
                   >
                 </li>
+               
               </ul>
             </div>
           </div>
@@ -294,13 +297,148 @@
   
         <div class="project-wrapper">
           <figure class="mix work-item branding">
-            <img src="{{asset('assets')}}/img/works/item-1.jpg" alt="" />
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/01.jpg" alt="" />
             <figcaption class="overlay">
               <a
                 class="fancybox"
                 rel="works"
-                title="Write Your Image Caption Here"
-                href="{{asset('assets')}}/img/works/item-1.jpg"
+                title="Makina Odası Yalıtım Öncesi, Perde ve Zemin Hazırlığı"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/01.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/03.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Malzemeyi Uyguladıktan Sonra Dış Etkenlerden Korumak Amaçlı Kullanılan XPS Köpük ve Bitüm Uygulaması"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/03.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/04.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Malzemeyi Uyguladıktan Sonra Dış Etkenlerden Korumak Amaçlı Kullanılan XPS Köpük ve Bitüm Uygulaması"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/04.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/05.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Malzemeyi Uyguladıktan Sonra Dış Etkenlerden Korumak Amaçlı Kullanılan XPS Köpük ve Bitüm Uygulaması"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/05.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/06.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Likit Membran Uygulaması"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/06.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/08.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kipaş Kağıt Fabrikası Kauçuk-Bitüm Esaslı Likit Membran Uygulaması"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/08.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/09.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Temel İzolasyon"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/09.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/10.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Temel İzolasyon"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/10.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/17.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Poliüretan Enjeksiyon Su Yalıtımı Öncesi Super Packer Uygulaması"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/17.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/18.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Kauçuk-Bitüm Esaslı Perde Beton İzolasyonu"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/18.jpg"
                 ><i class="fa fa-eye fa-lg"></i
               ></a>
               <h4>Safir</h4>
@@ -308,50 +446,360 @@
             </figcaption>
           </figure>
   
-          <figure class="mix work-item web">
-            <img src="{{asset('assets')}}/img/works/item-2.jpg" alt="" />
+       
+        
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/50.jpg" alt="" />
             <figcaption class="overlay">
               <a
                 class="fancybox"
                 rel="works"
-                title="Write Your Image Caption Here"
-                href="{{asset('assets')}}/img/works/item-2.jpg"
-                ><i class="fa fa-eye fa-lg"></i
-              ></a>
-              <h4>SAFİR</h4>
-              <p> </p>
-            </figcaption>
-          </figure>
-  
-          <figure class="mix work-item logo-design">
-            <img src="{{asset('assets')}}/img/works/item-3.jpg" alt="" />
-            <figcaption class="overlay">
-              <a
-                class="fancybox"
-                rel="works"
-                title="Write Your Image Caption Here"
-                href="{{asset('assets')}}/img/works/item-3.jpg"
-                ><i class="fa fa-eye fa-lg"></i
-              ></a>
-              <h4>{{__('home.safir')}}</h4>
-              {{-- <p> </p> --}}
-            </figcaption>
-          </figure>
-  
-          <figure class="mix work-item  ">
-            <img src="{{asset('assets')}}/img/works/item-4.jpg" alt="" />
-            <figcaption class="overlay">
-              <a
-                class="fancybox"
-                rel="works"
-                title="Write Your Image Caption Here"
-                href="{{asset('assets')}}/img/works/item-4.jpg"
+                title="Kauçuk-Bitüm Esaslı Perde Beton İzolasyonu"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/50.jpg"
                 ><i class="fa fa-eye fa-lg"></i
               ></a>
               <h4>Safir</h4>
-              <p> </p>
+              {{-- <p></p> --}}
             </figcaption>
           </figure>
+
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/52.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/52.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/54.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/54.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/55.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/55.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/56.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/56.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+     
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/57.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/57.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/suyalitim/59.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/suyalitim/59.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/suyalitim/60.mp4" type="video/mp4">
+                <p> Birleşim Noktası Olmayan Kauçuk-Bitüm Esaslı Malzeme Üzeri Arduaz Uygulaması</p>
+            </video>
+        
+        
+          </figure>
+          {{-- <figure class="mix work-item branding">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/suyalitim/61.mp4" type="video/mp4">
+            </video>
+         --}}
+        
+          </figure>
+       
+          <figure class="mix work-item aritma">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/suyalitim/62.mp4" type="video/mp4">
+                <p> Arıtma Havuzu Yalıtım Öncesi Perde Beton ve Zemin Hazırlığı</p>
+
+            </video>
+        
+        
+          </figure>
+
+          <figure class="mix work-item aritma">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/suyalitim/63.mp4" type="video/mp4">
+                <p> Arıtma Havuzu Yalıtım Öncesi Perde Beton ve Zemin Hazırlığı</p>
+
+            </video>
+        
+        
+          </figure>
+
+          <figure class="mix work-item aritma">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/suyalitim/65.mp4" type="video/mp4">
+                <p> Tuz Havuzuna Uygulanan İzolasyon Testi</p>
+
+            </video>
+        
+        
+          </figure>
+
+
+          <figure class="mix work-item aritma">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/suyalitim/67.mp4" type="video/mp4">
+                <p> Arıtma Havuzuna Uygulanan İzolasyon Testi</p>
+
+            </video>
+        
+        
+          </figure>
+          <!-- Epoxsi -->
+        
+          </figure>
+          <figure class="mix work-item web">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/epoxsi/02.mp4" type="video/mp4">
+            </video>
+        
+        
+          </figure>
+          <figure class="mix work-item web">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/epoxsi/03.mp4" type="video/mp4">
+            </video>
+        
+        
+          </figure>
+        
+      
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/13.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/13.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+            
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/14.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/14.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/15.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/15.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/16.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/16.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/18.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/18.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/19.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/19.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item branding">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/20.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title=""
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/20.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/21.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/21.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item web">
+            <img src="{{asset('assets')}}/img/fotovideo/epoxsi/22.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/epoxsi/22.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+          <figure class="mix work-item aritma">
+            <img src="{{asset('assets')}}/img/fotovideo/aritma/02.jpg" alt="" />
+            <figcaption class="overlay">
+              <a
+                class="fancybox"
+                rel="works"
+                title="Write Your Image Caption Here"
+                href="{{asset('assets')}}/img/fotovideo/aritma/02.jpg"
+                ><i class="fa fa-eye fa-lg"></i
+              ></a>
+              <h4>Safir</h4>
+              {{-- <p></p> --}}
+            </figcaption>
+          </figure>
+
+
+
+
+          <figure class="mix work-item aritma">
+            <video width="450px" controls>
+              <source src="{{asset('assets')}}/img/fotovideo/aritma/03.mp4" type="video/mp4">
+            </video>
+        
+        
+          </figure>
+
+  
+      
   
           {{-- <figure class="mix work-item branding">
             <img src="{{asset('assets')}}/img/works/item-5.jpg" alt="" />

@@ -13,9 +13,15 @@
      'gelişim' => 'DEVELOPMENT' ,
      'Danışmanlık' => 'Consulting' ,
      'işler' => 'What We Do' ,
-     'Poliüretan' => 'Polyurethane Thermal Insulation' ,
-     'Polyurea' => 'Polyurea Waterproofing' ,
-     'SuYalıtım' => 'Our Waterproofing Applications',
+    
+
+     'suyalıtımı' => 'Waterproofing Applications' ,
+
+     'epoxsi' => 'Epoxsi Flooring Applications' ,
+     'poliüretan' => 'Polyurethane Coating' ,
+
+     'arıtma' => 'Industrial Pool Insulation' ,
+
      'Kaplama' => 'Overlay Applications' ,
      'Sıkma' => 'Polyurethane Squeeze Foam' ,
      'Herşey' => 'ALL' ,
@@ -36,9 +42,8 @@
       'gonder' => 'Send',
       'adres' => 'Address',
 
-      'hakkimizdakisa' => 'Since 2010, we have adopted honesty in our service to our valued customers and quality in our products. We offer you the best service by following the innovations in technology in all insulation and floor covering areas, by constantly differentiating in the products we use. We offer an absolute guarantee of 5 years on all the materials we use.'
-      , 'hakkimizdauzun' => 'Since 2010, we have adopted honesty in our service to our valued customers and quality in our products. We offer you the best service by following the innovations in technology in all insulation and floor covering areas, by constantly differentiating in the products we use. We offer an absolute guarantee of 5 years on all the materials we use.
-      Since 2000, we have adopted honesty in our service to our valued customers and quality in our products. We offer a 5-year warranty on all the materials we use.
+      'hakkimizdakisa' => 'Since 2018, we have adopted honesty in our services to our valued customers and quality in our products. We offer a 5-year warranty on all the materials we use.'
+      , 'hakkimizdauzun' => 'Since 2018, we have adopted honesty in our services to our valued customers and quality in our products. We offer a 5-year warranty on all the materials we use.
       '
         ,
 

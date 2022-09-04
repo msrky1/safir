@@ -53,7 +53,7 @@
 <body id="body">
     <!-- preloader -->
     <div id="preloader">
-        <img src="{{ asset('assets') }}/img/preloader.gif" alt="Preloader" />
+        <img width="150" height="150" src="{{ asset('assets') }}/img/preloader.gif" alt="Preloader" />
     </div>
 
 
@@ -185,7 +185,7 @@
               data-wow-duration="500ms"
             >
               <div class="footer-single">
-                <img src="img/footer-logo.png" alt="" />
+               <a href="/" > <img src="img/footer-logo.png" alt="" /> </a>
                 <p>
                   {{__('home.adres')}}
 

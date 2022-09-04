@@ -13,9 +13,14 @@
      'gelişim' => 'GELİŞİM' , 
      'Danışmanlık' => 'Danışmanlık' , 
      'işler' => 'Neler Yapıyoruz' , 
-     'Poliüretan' => 'Poliüretan Isı Yalıtım' , 
-     'Polyurea' => 'Polyurea Su Yalıtımı' , 
-     'SuYalıtım' => 'Su Yalıtım Uygulamalarımız' , 
+     'suyalıtımı' => 'Su Yalıtım Uygulamaları' , 
+
+     'epoxsi' => 'Epoxsi Zemin Kaplama Uygulamaları' , 
+     'poliüretan' => 'Poliüretan Kaplama' , 
+      
+     'arıtma' => 'Endüstriyel Havuz Yalıtımı' , 
+
+
      'Kaplama' => 'Kaplama Uygulamaları' , 
      'Sıkma' => 'Poliüretan Sıkma Köpük' , 
      'Herşey' => 'TÜMÜ' , 
@@ -37,10 +42,9 @@
        'adres' => 'Adres',
        
        
-      'hakkimizdakisa' => '2010 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl kesin garanti sunuyoruz.'
-      , 'hakkimizdauzun' => '2010 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl kesin garanti sunuyoruz.
-      2000 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl garanti sunuyoruz.
-      '
+      'hakkimizdakisa' => '2018 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl garanti sunuyoruz.'
+      , 'hakkimizdauzun' => '2018 yılından bu yana değerli müşterilerimize verdiğimiz hizmetimizde dürüstlüğü, ürünlerimizde ise kaliteyi benimsemekteyiz.Tüm yalıtım ve zemin kaplama alanlarında teknolojide ki yenilikleri takip ederek, kullandığımız ürünlerimizde sürekli farklılaşarak en iyi hizmeti sizlere sunuyoruz. Kullandığımız tüm malzemelerde 5 yıl garanti sunuyoruz.
+       '
         ,
 
         'n1' => 'NB Sistem Kristalize Su Yalıtımı Harcı (2K)  Betonun yapısındaki kimyasallar ile tepkimeye girerek çözülmeyen kristaller üretir, bu sayede hem negatif hem de pozitif taraftan su izolasyonu sağlar.  Bodrumların içten yalıtımında ve su deposu-yüzme havuzu yalıtımında yıllardır başarı ile kullanılmaktadır.  Hijyeniktir, içme suyu depolarında kullanıma uygunluğu ve 13,8 bar su basıncına kadar su sızdırmazlığı (negatif ve pozitif taraftan) belgelenmiştir.  EN 1504-2 standartında CE belgesine sahiptir.', 
