@@ -1288,14 +1288,14 @@
       <!--
         Whats -->
 
-        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=905373484997&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
           <i class="fa fa-whatsapp my-float"></i>
           </a>
   
-          <a href="asd" class="float-one" target="_blank">
+          <a href="tel:+905373484997" class="float-one" target="_blank">
             <i class="fa fa-phone my-call"></i>           </a>
 
-            <a href="asd" class="float-insta" target="_blank">
+            <a href="https://www.instagram.com/safirteknik/" class="float-insta" target="_blank">
               <i class="fa fa-instagram my-call"></i>           </a>
     
       <!--
