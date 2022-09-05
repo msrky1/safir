@@ -892,33 +892,68 @@
             </div>
   
             <!-- single member -->
+          
             <figure
               class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
               data-wow-duration="500ms"
             >
               <div class="member-thumb">
                 <img
-                  src="{{asset('assets')}}/img/team/01.jpg"
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/kipas.jpg"
                   alt="Team Member"
                   class="img-responsive"
                 />
                 <figcaption class="overlay">
-                  <h5>FİLLİ BOYA</h5>
-                  {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                  <h5>Kipaş Holding</h5>
                   <ul class="social-links text-center">
-                    {{-- <li>
-                      <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                    </li> --}}
+                
                   </ul>
                 </figcaption>
               </div>
-              <h4>FİLLİ BOYA</h4>
+              <h4>Kipaş Holding</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/asbeton.jpg"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>As Beton</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>As Beton</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/elifiplik.png"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Elif İplik</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Elif İplik</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
             <figure
@@ -927,27 +962,166 @@
             >
               <div class="member-thumb">
                 <img
-                  src="{{asset('assets')}}/img/team/01.jpg"
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/gonen.png"
                   alt="Team Member"
                   class="img-responsive"
                 />
                 <figcaption class="overlay">
-                  <h5>FİLLİ BOYA</h5>
-                  {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                  <h5>Gönen Tekstil</h5>
                   <ul class="social-links text-center">
-                    {{-- <li>
-                      <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                    </li> --}}
+                
                   </ul>
                 </figcaption>
               </div>
-              <h4>FİLLİ BOYA</h4>
+              <h4>Gönen Tekstil</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+       
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/hambey.jpg"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Hanbey Tarım</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Hanbey Tarım</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/kirik.png"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Kirik İnşaat - Mimarlık</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Kirik İnşaat - Mimarlık </h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/koster.png"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Köster Yapı Kimyasalları</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Köster Yapı Kimyasalları</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/marinboy.webp"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Marinboy Tekstil</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Marinboy Tekstil</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/marteks.webp"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Marteks Tekstil</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Marteks Tekstil</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/miksboya.jpg"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Miks Boya</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Miks Boya</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/nipas.jpg"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Nipaş Tektil</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Nipaş Tekstil</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
             <figure
@@ -956,100 +1130,83 @@
             >
               <div class="member-thumb">
                 <img
-                  src="{{asset('assets')}}/img/team/01.jpg"
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/ozkok.jpg"
                   alt="Team Member"
                   class="img-responsive"
                 />
                 <figcaption class="overlay">
-                  <h5>FİLLİ BOYA</h5>
-                  {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                  <h5>Özkök İnşaat</h5>
                   <ul class="social-links text-center">
-                    {{-- <li>
-                      <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                    </li> --}}
+                
                   </ul>
                 </figcaption>
               </div>
-              <h4>FİLLİ BOYA</h4>
+              <h4>Özkök İnşaat</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
+
             <figure
               class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
               data-wow-duration="500ms"
             >
               <div class="member-thumb">
                 <img
-                  src="{{asset('assets')}}/img/team/01.jpg"
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/qis.png"
                   alt="Team Member"
                   class="img-responsive"
                 />
                 <figcaption class="overlay">
-                  <h5>FİLLİ BOYA</h5>
-                  {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                  <h5>Qis Yapı Kimyasalları</h5>
                   <ul class="social-links text-center">
-                    {{-- <li>
-                      <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                    </li> --}}
+                
                   </ul>
                 </figcaption>
               </div>
-              <h4>FİLLİ BOYA</h4>
+              <h4>Qis Yapı Kimyasalları</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
+
             <figure
               class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
               data-wow-duration="500ms"
             >
               <div class="member-thumb">
                 <img
-                  src="{{asset('assets')}}/img/team/01.jpg"
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/sandal.jpg"
                   alt="Team Member"
                   class="img-responsive"
                 />
                 <figcaption class="overlay">
-                  <h5>FİLLİ BOYA</h5>
-                  {{-- <p>it aspernatur aut odit aut fugit,s</p> --}}
+                  <h5>Sandal İnşaat</h5>
                   <ul class="social-links text-center">
-                    {{-- <li>
-                      <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-facebook fa-lg"></i></a>
-                    </li>
-                    <li>
-                      <a href=""><i class="fa fa-google-plus fa-lg"></i></a>
-                    </li> --}}
+                
                   </ul>
                 </figcaption>
               </div>
-              <h4>FİLLİ BOYA</h4>
+              <h4>Sandal İnşaat</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
-            <!-- end single member -->
-  
-            <!-- single member -->
-           
-            <!-- end single member -->
-  
-            <!-- single member -->
-           
-            <!-- end single member -->
-  
-            <!-- single member -->
-           
-            <!-- end single member -->
+
+            <figure
+              class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+              data-wow-duration="500ms"
+            >
+              <div class="member-thumb">
+                <img
+                  src="{{asset('assets')}}/img/fotovideo/firmalar/turkan.jpg"
+                  alt="Team Member"
+                  class="img-responsive"
+                />
+                <figcaption class="overlay">
+                  <h5>Türkan Tekstil</h5>
+                  <ul class="social-links text-center">
+                
+                  </ul>
+                </figcaption>
+              </div>
+              <h4>Türkan Tekstil</h4>
+              <span>Safir Teknik İzolasyon</span>
+            </figure>
           </div>
         </div>
       </section>
@@ -1129,9 +1286,18 @@
       </section>
   
       <!--
-          End Some fun facts
-          ==================================== -->
+        Whats -->
+
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+          <i class="fa fa-whatsapp my-float"></i>
+          </a>
   
+          <a href="asd" class="float-one" target="_blank">
+            <i class="fa fa-phone my-call"></i>           </a>
+
+            <a href="asd" class="float-insta" target="_blank">
+              <i class="fa fa-instagram my-call"></i>           </a>
+    
       <!--
           Contact Us
           ==================================== -->
