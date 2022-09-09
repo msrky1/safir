@@ -53,7 +53,8 @@
         'n3' => 'Epoxy floor coatings have a wide range of uses in the construction industry. The main purpose of using it as a floor covering is to eliminate the negative effects of physical and chemical formations on concrete surfaces. In areas where epoxy-based flooring coatings have been applied, a continuous surface with a far superior performance can be obtained compared to reinforced concrete.',
         'm1' => 'We are increasing our brand by adding value to our service every day.',
         'm2' => 'We Care To Improve Our Quality Every Day',
-        'm3' => 'We are always paving the way for better works by always improving ourselves',
+        'm3' => 'We always develop ourselves with our advanced technology insulation machines and we should be proud of being the leader company in the sector.
+        ',
 
         's1' => 'Sapphire Technical Insulation' ,
         's2' => 'Trust and Quality' ,

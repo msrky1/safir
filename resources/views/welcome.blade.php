@@ -96,7 +96,7 @@
                   <span class="color">/safir</span> 
                 </h3>
                 <p data-wow-duration="1000ms" class="wow slideInRight animated">
-                      Alanında Uzman Ekip
+                    Yalıtımda Uzman
                 </p>
   
                 <ul class="social-links text-center">
@@ -131,7 +131,7 @@
                   <span class="color">/Safir</span>
                 </h3>
                 <p data-wow-duration="500ms" class="wow slideInRight animated">
-                  Alanında Uzman Ekip
+                 Yalıtımda Uzman
                 </p>
   
                 <ul class="social-links text-center">
@@ -563,7 +563,7 @@
           </figure>
 
           <figure class="mix work-item branding">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/suyalitim/60.mp4" type="video/mp4">
                 <p> Birleşim Noktası Olmayan Kauçuk-Bitüm Esaslı Malzeme Üzeri Arduaz Uygulaması</p>
             </video>
@@ -571,7 +571,7 @@
         
           </figure>
           {{-- <figure class="mix work-item branding">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/suyalitim/61.mp4" type="video/mp4">
             </video>
          --}}
@@ -579,7 +579,7 @@
           </figure>
        
           <figure class="mix work-item aritma">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/suyalitim/62.mp4" type="video/mp4">
                 <p> Arıtma Havuzu Yalıtım Öncesi Perde Beton ve Zemin Hazırlığı</p>
 
@@ -589,7 +589,7 @@
           </figure>
 
           <figure class="mix work-item aritma">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/suyalitim/63.mp4" type="video/mp4">
                 <p> Arıtma Havuzu Yalıtım Öncesi Perde Beton ve Zemin Hazırlığı</p>
 
@@ -599,7 +599,7 @@
           </figure>
 
           <figure class="mix work-item aritma">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/suyalitim/65.mp4" type="video/mp4">
                 <p> Tuz Havuzuna Uygulanan İzolasyon Testi</p>
 
@@ -610,7 +610,7 @@
 
 
           <figure class="mix work-item aritma">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/suyalitim/67.mp4" type="video/mp4">
                 <p> Arıtma Havuzuna Uygulanan İzolasyon Testi</p>
 
@@ -622,14 +622,14 @@
         
           </figure>
           <figure class="mix work-item web">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/epoxsi/02.mp4" type="video/mp4">
             </video>
         
         
           </figure>
           <figure class="mix work-item web">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/epoxsi/03.mp4" type="video/mp4">
             </video>
         
@@ -791,7 +791,7 @@
 
 
           <figure class="mix work-item aritma">
-            <video width="450px" controls>
+            <video width="350px" controls>
               <source src="{{asset('assets')}}/img/fotovideo/aritma/03.mp4" type="video/mp4">
             </video>
         
@@ -913,6 +913,7 @@
               <h4>Kipaş Holding</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
+           
 
             <figure
               class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
@@ -1061,7 +1062,7 @@
               <span>Safir Teknik İzolasyon</span>
             </figure>
        
-
+         
             
 
            
@@ -1086,7 +1087,26 @@
               <h4>Köster Yapı Kimyasalları</h4>
               <span>Safir Teknik İzolasyon</span>
             </figure>
-
+            <figure
+            class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+            data-wow-duration="500ms"
+          >
+            <div class="member-thumb">
+              <img
+                src="{{asset('assets')}}/img/fotovideo/firmalar/asrin.jpg"
+                alt="Team Member"
+                class="img-responsive"
+              />
+              <figcaption class="overlay">
+                <h5>Asrın Mimarlık</h5>
+                <ul class="social-links text-center">
+              
+                </ul>
+              </figcaption>
+            </div>
+            <h4>Asrın Mimarlık</h4>
+            <span>Safir Teknik İzolasyon</span>
+          </figure>
             <figure
               class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
               data-wow-duration="500ms"
@@ -1238,6 +1258,7 @@
               <span>Safir Teknik İzolasyon</span>
             </figure>
           
+          
             <figure
             class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
             data-wow-duration="500ms"
@@ -1258,6 +1279,28 @@
             <h4>Alimoğlu İnşaat</h4>
             <span>Safir Teknik İzolasyon</span>
           </figure>
+
+          <figure
+          class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+          data-wow-duration="500ms"
+        >
+          <div class="member-thumb">
+            <img
+              src="{{asset('assets')}}/img/fotovideo/firmalar/mupa.jpg"
+              alt="Team Member"
+              class="img-responsive"
+            />
+            <figcaption class="overlay">
+              <h5>Müpa İnşaat</h5>
+              <ul class="social-links text-center">
+            
+              </ul>
+            </figcaption>
+          </div>
+          <h4>Müpa İnşaat</h4>
+          <span>Safir Teknik İzolasyon</span>
+        </figure>
+      
           
           </div>
         </div>
@@ -1340,7 +1383,7 @@
       <!--
         Whats -->
 
-        <a href="https://api.whatsapp.com/send?phone=905330883646&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=905330883646" class="float" target="_blank">
           <i class="fa fa-whatsapp my-float"></i>
           </a>
   
